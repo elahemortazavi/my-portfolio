@@ -7,20 +7,18 @@ const Intro = () => {
       <div className="i-left">
         <div className="i-left-wrapper">
           <h2 className="i-intro">Hello, My name is</h2>
-          <h1 className="i-name">John Burton</h1>
+          <h1 className="i-name">Elahe Mortazavi</h1>
           <div className="i-title">
             <div className="i-title-wrapper">
               <div className="i-title-item">Web Developer</div>
-              <div className="i-title-item">UI/UX Designer</div>
-              <div className="i-title-item">Photographer</div>
-              <div className="i-title-item">Writer</div>
-              <div className="i-title-item">Content Creator</div>
+              <div className="i-title-item">Full stack developer</div>
             </div>
           </div>
           <p className="i-desc">
-            I design and develop services for customers of all sizes,
-            specializing in creating stylish, modern websites, web services and
-            online stores.
+            I'm a Full Stack Developer with a passion for crafting seamless
+            digital experiences. From designing intuitive user interfaces to
+            building robust back-end systems, I thrive in the dynamic world of
+            web development.
           </p>
         </div>
         <svg
