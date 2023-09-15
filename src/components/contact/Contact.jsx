@@ -16,10 +16,10 @@ const Contact = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_rrvnzco",
-        "template_3v5nih4",
+        "service_ju07nsd",
+        "template_8809ktn",
         formRef.current,
-        "user_DrriDPTGKO2Zj4RDXCA6W"
+        "xhAhJ-5yAyl_Rti4f"
       )
       .then(
         (result) => {
