@@ -1,5 +1,5 @@
 import "./about.css";
-import Award from "../../img/award.png";
+// import Award from "../../img/award.png";
 import AboutMe from "../../img/laptop.gif"
 
 const About = () => {
@@ -21,12 +21,13 @@ const About = () => {
         </p>
         <p className="a-desc">
           Actively developing web applications using the latest technologies,
-          including HTML, CSS, JavaScript, React, Next.js, Typescript, Node.js,
-          and SQL. Experienced working on various projects alongside
-          implementing version control with Git. My approach to software
-          development is guided by agile methodologies and a strong emphasis on
-          collaboration within teams. Working as a team to elevate the field of
-          web development and creating impact solutions.
+          including<b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>, <b>React</b>,{" "}
+          <b>Next.js</b>, <b>Typescript</b>,<b>Node.js</b>, and <b>SQL</b>.
+          Experienced working on various projects alongside implementing version
+          control with Git. My approach to software development is guided by
+          agile methodologies and a strong emphasis on collaboration within
+          teams. Working as a team to elevate the field of web development and
+          creating impact solutions.
         </p>
         {/* <div className="a-award">
           <img src={Award} alt="" className="a-award-img" />
