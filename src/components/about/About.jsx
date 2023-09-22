@@ -1,5 +1,5 @@
 import "./about.css";
-// import Award from "../../img/award.png";
+import cv from "../../img/cv.png";
 import AboutMe from "../../img/laptop.gif"
 
 const About = () => {
@@ -21,24 +21,24 @@ const About = () => {
         </p>
         <p className="a-desc">
           Actively developing web applications using the latest technologies,
-          including<b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>, <b>React</b>,{" "}
-          <b>Next.js</b>, <b>Typescript</b>,<b>Node.js</b>, and <b>SQL</b>.
+          including <b>HTML, CSS, JavaScript, React, Next.js, Node.js, Typescript</b>, and <b>SQL</b>.
           Experienced working on various projects alongside implementing version
           control with Git. My approach to software development is guided by
           agile methodologies and a strong emphasis on collaboration within
-          teams. Working as a team to elevate the field of web development and
-          creating impact solutions.
+          teams.Working as a team to elevate the field of web
+          development and creating impact solutions.
         </p>
-        {/* <div className="a-award">
-          <img src={Award} alt="" className="a-award-img" />
-          <div className="a-award-texts">
-            <h4 className="a-award-title">International Award</h4>
-            <p className="a-award-desc">
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur autodit
-              and fugit.
+        <div className="a-cv">
+          <img src={cv} alt="" className="a-cv-img" />
+          <div className="a-cv-texts">
+            <h4 className="a-cv-title">My CV</h4>
+            <p className="a-cv-desc">
+              Feel free to review my CV to gain a comprehensive understanding of
+              my qualifications, experiences, and the skills I bring to the
+              table.
             </p>
           </div>
-        </div> */}
+        </div>
       </div>
     </div>
   );

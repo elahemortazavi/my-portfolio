@@ -38,11 +38,14 @@
   object-fit: cover;
 }
 
-/* .a-award-img {
+.a-cv-img {
   width: 120px;
   height: 120px;
   border-radius: 20px;
-} */
+  
+  
+}
+
 
 .a-title {
   font-weight: 400;
@@ -56,18 +59,18 @@
     font-weight: 300;
 }
 
-.a-award{
+.a-cv{
     margin-top: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.a-award-texts{
+.a-cv-texts{
     width: 70%;
 }
 
-.a-award-title{
+.a-cv-title{
     font-weight: bold;
     color: black;
     margin-bottom: 10px;
@@ -88,7 +91,7 @@
       height: 30vh;
     }
 
-    .a-card.bg, .a-award {
+    .a-card.bg, .a-cv {
       display: none;
     }
 
